@@ -1,1 +1,32 @@
-{"menu_items":[{"href":"/","title":"Главная"},{"href":"/catalogue/","title":"Каталог"},{"href":"/gallery/","title":"Галерея"}]}
+{
+	"menu_items": [{
+			"href": "/",
+			"title": "Главная"
+		}, {
+			"href": "/catalogue",
+			"title": "Каталог",
+			"subItems": [{
+					"href": "/phones",
+					"title": "Телефоны",
+					"subItems": [{
+							"href": "/iphone-10",
+							"title": "iPhone 10"
+						}, {
+							"href": "/samsung-galaxy-s10",
+							"title": "Samsung Galaxy 10"
+						}, {
+							"href": "/htc-one-4",
+							"title": "HTC One 4"
+						}
+					]
+				}, {
+					"href": "/tablets",
+					"title": "Планшеты",
+				}
+			]
+		}, {
+			"href": "/gallery",
+			"title": "Галерея"
+		}
+	]
+}
